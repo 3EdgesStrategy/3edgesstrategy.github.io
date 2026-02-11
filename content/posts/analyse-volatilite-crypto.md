@@ -1,7 +1,7 @@
 ---
 title: "Analyse de la structure par terme de la volatilité : Les cryptomonnaies sont-elles mean-reverting ?"
 date: 2026-02-11
-draft: true
+draft: false
 math: true
 tags: ["crypto", "volatility", "hurst-exponent", "mean-reversion", "quantitative-analysis"]
 categories: ["Quant Research"]
