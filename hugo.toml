@@ -1,3 +1,45 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://3edges.github.io/'
+languageCode = 'fr-fr'
+title = '3Edges - Quant Research Blog'
+theme = 'PaperMod'
+
+[params]
+  description = "Recherche quantitative et analyse de marchés"
+  author = "3Edges"
+  
+  # Support des mathématiques
+  math = true
+  
+  # Support du code
+  pygmentsUseClasses = true
+  pygmentsCodeFences = true
+  
+  [params.homeInfoParams]
+    Title = "Bienvenue sur mon blog de recherche quantitative"
+    Content = "Analyses, stratégies et recherches sur les marchés financiers"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/3edgesstrategy"
+
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = true
+  
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Permet d'insérer du HTML dans le markdown
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Articles"
+    url = "/posts/"
+    weight = 1
+  
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
