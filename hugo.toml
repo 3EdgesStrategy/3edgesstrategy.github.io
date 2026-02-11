@@ -7,6 +7,12 @@ theme = 'PaperMod'
   description = "Recherche quantitative et analyse de marchés"
   author = "3Edges"
   
+  # Logo
+  [params.label]
+    text = "3Edges"
+    icon = "/logo.png"
+    iconHeight = 35
+  
   # Support des mathématiques
   math = true
   
